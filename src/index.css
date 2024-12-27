@@ -1,0 +1,491 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ background-image: url("C:\Users\ninar\OneDrive\Bureau\developpementweb\REACT\Questionnaire dwwm\questionnaire dwwm\src\Design sans titre (19).png");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width:480px) { 
+    .main1 {
+      background-color: white;
+      padding: 20px;
+      max-width: 300px; 
+      margin: 0 auto; 
+      border-radius: 5px;
+      position: relative; 
+      left: unset; 
+      top: 270px; 
+    }
+  
+    .titre1 {
+      text-align: center;
+    }
+  
+    .bt1 {
+      background-color: #000925;
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 100%; 
+      position: relative; 
+      left: unset; }
+
+      .bt1:hover {
+        background-color :#000925; 
+      opacity: 90%; 
+         }
+
+         .main2 {
+          background-color: white;
+          padding: 20px;
+          max-width: 300px; 
+          margin: 0 auto; 
+          border-radius: 5px;
+          position: relative; 
+          left: unset; 
+          top: 270px; 
+        }
+
+        .titre2 {
+          text-align: center;
+        }
+
+        .inputP {
+          width: 100%;
+          border: 1px solid black ;
+        }
+
+        .inputN {
+          width: 100%;
+          margin-top: 10px;
+          border: 1px solid black
+        }
+
+        .bt2 {
+          background-color: #000925;
+          color: white;
+          font-weight: bold;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          width: 100%; 
+          position: relative; 
+          left: unset; 
+          margin-top: 10px}
+    
+          .bt2:hover {
+            background-color :#000925; 
+      opacity: 90%; 
+             }
+
+             .main3 {
+              background-color: white;
+              padding: 20px;
+              max-width: 300px; 
+              margin: 0 auto; 
+              border-radius: 5px;
+              position: relative; 
+              left: unset; 
+              top: 270px; 
+            }
+
+            .titre3 {
+              text-align: center;
+              font-weight: bold;
+            }
+
+            .bt3{
+              background-color: #000925;
+              color: white;
+              font-weight: bold;
+              padding: 10px;
+              border: none;
+              border-radius: 5px;
+              width: 100%; 
+              position: relative; 
+              left: unset; 
+              margin-top: 10px}
+        
+              .bt3:hover {
+                background-color :#000925; 
+      opacity: 90%; 
+                 }
+
+                 .main4 {
+                  background-color: white;
+                  padding: 20px;
+                  max-width: 300px; 
+                  margin: 0 auto; 
+                  border-radius: 5px;
+                  position: relative; 
+                  left: unset; 
+                  top: 270px; 
+                }
+
+                .bt4{
+                  background-color: #000925;
+                  color: white;
+                  font-weight: bold;
+                  padding: 10px;
+                  border: none;
+                  border-radius: 5px;
+                  width: 100%; 
+                  position: relative; 
+                  left: unset; 
+                  margin-top: 10px}
+            
+                  .bt4:hover {
+                    background-color :#000925; 
+                    opacity: 90%; 
+                     }
+
+                     .no-border {
+                      border: none; 
+                  }
+}
+
+@media screen and (min-width:481px) and (max-width:1024px) { 
+  .main1 {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 5px;
+    position: relative; 
+    left: unset; 
+    top: 270px; 
+  }
+
+  .titre1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .bt1 {
+    background-color: #000925;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; 
+    position: relative; 
+    left: unset; }
+
+    .bt1:hover {
+      background-color :#000925; 
+      opacity: 90%;
+       }
+
+       .main2 {
+        background-color: white;
+        padding: 20px;
+        max-width: 400px; 
+        margin: 0 auto; 
+        border-radius: 5px;
+        position: relative; 
+        left: unset; 
+        top: 200px; 
+      }
+
+      .titre2 {
+        font-size: 25px;
+        text-align: center;
+      }
+
+      .inputP {
+        width: 100%;
+        height: 40px; 
+        border: 1px solid black ;
+        font-size: 30px
+      }
+
+      .inputP::placeholder {
+        font-size: 16px;}
+
+      .inputN {
+        width: 100%;
+        height: 40px; 
+        margin-top: 10px;
+        border: 1px solid black;
+        font-size: 30px
+      }
+
+      .inputN::placeholder {
+        font-size: 16px;}
+
+      .bt2 {
+        background-color: #000925;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; 
+    position: relative; 
+    left: unset;
+    margin-top: 10px}
+  
+        .bt2:hover {
+          background-color :#000925; 
+          opacity: 90%;
+           }
+
+           .main3 {
+            background-color: white;
+            padding: 40px;
+            max-width: 400px; 
+            margin: 0 auto; 
+            border-radius: 5px;
+            position: relative; 
+            left: unset; 
+            top: 270px; 
+          }
+
+          .titre3 {
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+          }
+
+          .bt3{
+            background-color: #000925;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; 
+    position: relative; 
+    left: unset;
+    margin-top: 10px}
+      
+            .bt3:hover {
+              background-color :#000925; 
+      opacity: 90%;
+               }
+
+               .main4 {
+                background-color: white;
+            padding: 30px;
+            max-width: 600px; 
+            margin: 0 auto; 
+            border-radius: 5px;
+            position: relative; 
+            left: unset; 
+            top: 270px; 
+              }
+
+              th {
+                font-size: 20px;
+              }
+
+              td {
+                font-size: 20px;
+              }
+
+              .bt4{
+                background-color: #000925;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                width: 100%; 
+                position: relative; 
+                left: unset;
+                margin-top: 10px}
+          
+                .bt4:hover {
+                  background-color :#000925; 
+      opacity: 90%;
+                   }
+
+                   .no-border {
+                    border: none; 
+                }
+}
+
+
+
+@media screen and (min-width:1025px)  { 
+  .main1 {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 5px;
+    position: relative; 
+    left: unset; 
+    right: unset; 
+    top: 200px; 
+  }
+
+  .titre1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .bt1 {
+    background-color: #000925;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; 
+    position: relative; 
+    left: unset; }
+
+    .bt1:hover {
+      background-color :#000925; 
+      opacity: 90%;
+       }
+
+       .main2 {
+        background-color: white;
+        padding: 20px;
+        max-width: 400px; 
+        margin: 0 auto; 
+        border-radius: 5px;
+        position: relative; 
+        left: unset; 
+        right: unset;
+        top: 150px; 
+      }
+
+      .titre2 {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .inputP {
+        width: 100%;
+        height: 30px; 
+        border: 1px solid black ;
+        font-size: 15px
+      }
+
+      .inputP::placeholder {
+        font-size: 16px;}
+
+      .inputN {
+        width: 100%;
+        height: 30px; 
+        margin-top: 10px;
+        border: 1px solid black;
+        font-size: 15px
+      }
+
+      .inputN::placeholder {
+        font-size: 16px;}
+
+      .bt2 {
+        background-color: #000925;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; 
+    position: relative; 
+    left: unset;
+    margin-top: 10px}
+  
+        .bt2:hover {
+          background-color :#000925; 
+      opacity: 90%;
+           }
+
+           .main3 {
+            background-color: white;
+            padding: 40px;
+            max-width: 400px; 
+            margin: 0 auto; 
+            border-radius: 5px;
+            position: relative; 
+            left: unset; 
+            right: unset;
+            top: 200px; 
+          }
+
+          .titre3 {
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+          }
+
+          .bt3{
+            background-color: #000925;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%; 
+    position: relative; 
+    left: unset;
+    margin-top: 10px}
+      
+            .bt3:hover {
+              background-color :#000925; 
+              opacity: 90%;
+               }
+
+               .main4 {
+                background-color: white;
+            padding: 20px;
+            max-width: 600px; 
+            margin: 0 auto; 
+            border-radius: 5px;
+            position: relative; 
+            left: unset; 
+            right : unset; 
+            top: 200px; 
+              }
+
+              th {
+                font-size: 16px;
+              }
+
+              td {
+                font-size: 16px;
+              }
+
+              .bt4{
+                background-color: #000925;
+                color: white;
+                font-size: 16px;
+                font-weight: bold;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                width: 100%; 
+                position: relative; 
+                left: unset;
+                margin-top: 10px}
+          
+                .bt4:hover {
+                   background-color :#000925; 
+              opacity: 90%;
+                   }
+
+                   .no-border {
+                    border: none; 
+                }
+}
